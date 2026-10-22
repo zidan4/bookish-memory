@@ -12,9 +12,11 @@ VALUES (1, 'SQLite practice successful');
 
 -- Verify that the data was inserted correctly
 SELECT id, message FROM trial;
-SET message = 'SQLite practice successful'
-WHERE id = 1;
+-- SET message = 'SQLite practice successful'
+-- WHERE id = 1;
 
 SELECT id, message FROM trial;
 
 SELECT id, message FROM trial WHERE id = 1;
+
+

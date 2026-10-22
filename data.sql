@@ -10,8 +10,11 @@ CREATE TABLE IF NOT EXISTS trial (
 INSERT OR IGNORE INTO trial (id, message)
 VALUES (1, 'SQLite practice successful');
 
-UPDATE trial
+-- Verify that the data was inserted correctly
+SELECT id, message FROM trial;
 SET message = 'SQLite practice successful'
 WHERE id = 1;
 
 SELECT id, message FROM trial;
+
+SELECT id, message FROM trial WHERE id = 1;

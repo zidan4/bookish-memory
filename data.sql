@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS trial (
     message TEXT NOT NULL
 );
 
-INSERT OR IGNORE INTO trial (id, message)
+INSERT OR IGNORE INTO trial ( id, message )
 VALUES (1, 'SQLite practice successful');
 
 -- Verify that the data was inserted correctly

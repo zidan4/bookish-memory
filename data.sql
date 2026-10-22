@@ -1,6 +1,6 @@
 
--- SQLite practice script.
-SELECT sqlite_version() AS sqlite_version, CURRENT_TIMESTAMP AS database_time;
+/* SQLite practice script. */
+-- SELECT sqlite_version() AS sqlite_version, CURRENT_TIMESTAMP AS database_time;
 
 CREATE TABLE IF NOT EXISTS trial (
     id INTEGER PRIMARY KEY,
